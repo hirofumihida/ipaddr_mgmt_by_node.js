@@ -3,14 +3,18 @@
     "IPADDR":"192.168.0.1",
     "OWNER":"admin",
     "RESERVED":"yes",
-    "HOSTNAME":"router"
+    "HOSTNAME":"router",
+    "START":"9999-99-99",
+    "EXPIRE":"9999-99-99"
 },
 {
     "IPNUM":"002",
     "IPADDR":"192.168.0.2",
     "OWNER":"admin",
     "RESERVED":"yes",
-    "HOSTNAME":"switch"
+    "HOSTNAME":"switch",
+    "START":"9999-99-99",
+    "EXPIRE":"9999-99-99"
 },
 {
     "IPNUM":"003",
@@ -18,4 +22,6 @@
     "OWNER":"noname",
     "RESERVED":"no",
     "HOSTNAME":"noname"
+    "START":"0000-00-00",
+    "EXPIRE":"0000-00-00"
 }]
