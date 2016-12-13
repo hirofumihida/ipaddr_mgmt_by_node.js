@@ -1,0 +1,21 @@
+[{
+    "IPNUM":"001",
+    "IPADDR":"192.168.0.1",
+    "OWNER":"admin",
+    "RESERVED":"yes",
+    "HOSTNAME":"router"
+},
+{
+    "IPNUM":"002",
+    "IPADDR":"192.168.0.2",
+    "OWNER":"admin",
+    "RESERVED":"yes",
+    "HOSTNAME":"switch"
+},
+{
+    "IPNUM":"003",
+    "IPADDR":"192.168.0.3",
+    "OWNER":"noname",
+    "RESERVED":"no",
+    "HOSTNAME":"noname"
+}]
