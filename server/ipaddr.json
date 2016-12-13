@@ -21,7 +21,7 @@
     "IPADDR":"192.168.0.3",
     "OWNER":"noname",
     "RESERVED":"no",
-    "HOSTNAME":"noname"
+    "HOSTNAME":"noname",
     "START":"0000-00-00",
     "EXPIRE":"0000-00-00"
 }]
