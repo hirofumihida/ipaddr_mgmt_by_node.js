@@ -1,4 +1,6 @@
 var express = require('express');
+var bodyParser = require('body-parser')
+
 var app = express();
 var fs = require("fs");
 
@@ -10,9 +12,9 @@ app.get('/list_ipaddr', function (req, res) {
 })
 
 var ipaddr = {
-        "IP004": {
+        "IP003": {
 	    "INUSE":"yes",
-            "IPADDR":"192.168.0.4",
+            "IPADDR":"192.168.0.3",
             "OWNER":"hirofumi",
             "RESERVED":"no",
             "DHCP_RESERVED":"no",
@@ -26,7 +28,7 @@ app.post('/req_ipaddr', function (req, res) {
 	// First read existing users.
 	fs.readFile( __dirname + "/" + "ipaddr.json", 'utf8', function (err, data) {
 	data = JSON.parse( data );
-	data["IP004"] = ipaddr["IP004"];
+	data["IP003"] = ipaddr["IP003"];
 	console.log( data );
 	res.end( JSON.stringify(data));
 	});
