@@ -1,27 +1,32 @@
-[{
-    "IPNUM":"001",
-    "IPADDR":"192.168.0.1",
-    "OWNER":"admin",
-    "RESERVED":"yes",
-    "HOSTNAME":"router",
-    "START":"9999-99-99",
-    "EXPIRE":"9999-99-99"
-},
 {
-    "IPNUM":"002",
-    "IPADDR":"192.168.0.2",
-    "OWNER":"admin",
-    "RESERVED":"yes",
-    "HOSTNAME":"switch",
-    "START":"9999-99-99",
-    "EXPIRE":"9999-99-99"
-},
-{
-    "IPNUM":"003",
-    "IPADDR":"192.168.0.3",
-    "OWNER":"noname",
-    "RESERVED":"no",
-    "HOSTNAME":"noname",
-    "START":"0000-00-00",
-    "EXPIRE":"0000-00-00"
-}]
+    "IP001": {
+        "INUSE":"yes",
+        "IPADDR":"192.168.0.1",
+        "OWNER":"admin",
+        "RESERVED":"yes",
+        "DHCP_RESERVED":"no",
+        "HOSTNAME":"router",
+        "START":"9999-99-99",
+        "EXPIRE":"9999-99-99"
+    },
+    "IP002": {
+        "INUSE":"yes",
+        "IPADDR":"192.168.0.2",
+        "OWNER":"admin",
+        "RESERVED":"yes",
+        "DHCP_RESERVED":"no",
+        "HOSTNAME":"switch",
+        "START":"9999-99-99",
+        "EXPIRE":"9999-99-99"
+    },
+    "IP003": {
+        "INUSE":"no",
+        "IPADDR":"192.168.0.3",
+        "OWNER":"noname",
+        "RESERVED":"no",
+        "DHCP_RESERVED":"no",
+        "HOSTNAME":"noname",
+        "START":"0000-00-00",
+        "EXPIRE":"0000-00-00"
+    }
+}
